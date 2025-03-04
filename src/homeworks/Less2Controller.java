@@ -21,6 +21,12 @@ public class Less2Controller {
                 case 2:
                     Bai2.main(args);
                     break;
+                case 3:
+                    Bai3.main(args);
+                case 4:
+                    Bai4.main(args);
+                case 5:
+                    Bai5.main(args);
                 case 6:
                     Bai6.main(args);
                     break;
