@@ -1,5 +1,8 @@
 package homeworks.less4.bai2;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SinhVien {
     private String ma;
     private String hoTen;
@@ -8,6 +11,8 @@ public class SinhVien {
     private String tinDaiCuong;
     private String chinhTri;
     private String phapLuat;
+
+    private Map<String, Double> diem = new HashMap<String, Double>();
 
     public SinhVien(String ma, String hoTen, String ngaySinh, String gioiTinh, String tinDaiCuong, String chinhTri, String phapLuat) {
         this.ma = ma;
